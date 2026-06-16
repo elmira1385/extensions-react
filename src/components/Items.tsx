@@ -69,7 +69,7 @@ const Items = ({ filter, item, setItem }: ItemsProps) => {
               }`}
             >
               <div
-                className={`w-7 h-7  rounded-full bg-white ${
+                className={`w-7 h-7  rounded-full transition-all bg-white ${
                   each.isActive ? "translate-x-10.5 " : "translate-x-0.5 "
                 }`}
               ></div>
